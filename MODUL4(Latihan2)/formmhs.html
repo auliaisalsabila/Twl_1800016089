@@ -1,0 +1,28 @@
+<html>
+<body>
+	<form method="post" action="mhs.php">
+		NIM  : <input type="text" name="nim"> <br><br>
+		Nama : <input type="text" name="nama"> <br><br>
+		Jenis Kelamin : <br>
+						<input type="radio" name="jk" value="Laki-Laki">Laki-Laki <br>
+						<input type="radio" name="jk" value="Perempuan">Perempuan <br>
+						<br>
+		Alamat : <br>
+				 <textarea name="alamat" rows=2 cols=50>
+				 </textarea>
+				 <br><br>
+		Program Studi : <select name="ps"> <br>
+						<option value="Sistem Informasi">Sistem Informasi
+						<option value="Biologi">Biologi
+						<option value="Matematika">Matematika
+						<option value="Fisika">Fisika
+						</select><br><br>
+		Bahasa Pemrograman yang Dikuasai : <br>
+										   <input type="checkbox" name="cek[]" value="Pascal">Pascal <br>
+										   <input type="checkbox" name="cek[]" value="C/C++">C/C++ <br>
+										   <input type="checkbox" name="cek[]" value="Visual Basic">Visual Basic <br>
+										   <br>
+		<input type="submit" value="Kirim">
+	</form>
+</body>
+</html>
